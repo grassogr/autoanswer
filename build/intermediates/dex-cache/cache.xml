@@ -2,16 +2,44 @@
 <items version="2" >
 
     <item
-        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jar="E:\Android\autoanswer2\autoanswer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
         jumboMode="false"
         revision="22.0.1"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\classes-55051e1e3f29e19160c8f40986d7275b87a0dbd7.jar" />
+    </item>
+    <item
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
         sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
         <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-5cd057de5e86ba20f0cd9f4cd4304521dbc24683.jar" />
+    </item>
+    <item
+        jar="E:\Android\autoanswer2\autoanswer\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="73753982da6bde518f3a4c6b372749981d14d1a0">
+        <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\classes-9efc32be9f017edd9742f0623a5d242fa4b5cd57.jar" />
+    </item>
+    <item
+        jar="E:\Android\autoanswer2\autoanswer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
+        <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\classes-55051e1e3f29e19160c8f40986d7275b87a0dbd7.jar" />
     </item>
     <item
         jar="E:\Android\autoanswer2\autoanswer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
+        sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
+        <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-86dfa6794da035c9e79d8140751e930398f484c7.jar" />
+    </item>
+    <item
+        jar="E:\Android\autoanswer2\autoanswer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\libs\internal_impl-22.2.0.jar"
+        jumboMode="false"
+        revision="19.1.0"
         sha1="57f2ab85c164ff1676ec64dee787981c046fab79">
         <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\internal_impl-22.2.0-86dfa6794da035c9e79d8140751e930398f484c7.jar" />
     </item>
@@ -23,11 +51,11 @@
         <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\classes-9efc32be9f017edd9742f0623a5d242fa4b5cd57.jar" />
     </item>
     <item
-        jar="E:\Android\autoanswer2\autoanswer\app\build\intermediates\exploded-aar\com.android.support\support-v4\22.2.0\jars\classes.jar"
+        jar="C:\sdk\extras\android\m2repository\com\android\support\support-annotations\22.2.0\support-annotations-22.2.0.jar"
         jumboMode="false"
         revision="22.0.1"
-        sha1="1ee588ff2c4daf7b97c1cbf922a6c7f027285c2f">
-        <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\classes-55051e1e3f29e19160c8f40986d7275b87a0dbd7.jar" />
+        sha1="66b42a1f3eb7676070b7ef7f14b603483aecbee1">
+        <dex dex="E:\Android\autoanswer2\autoanswer\app\build\intermediates\pre-dexed\debug\support-annotations-22.2.0-5cd057de5e86ba20f0cd9f4cd4304521dbc24683.jar" />
     </item>
 
 </items>

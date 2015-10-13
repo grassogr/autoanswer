@@ -40,6 +40,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.media.AudioManager;
+import android.os.PowerManager;
 import android.preference.PreferenceManager;
 import android.telephony.TelephonyManager;
 import android.util.Log;
@@ -93,16 +94,14 @@ public class AutoAnswerIntentService extends IntentService {
         try {
             answerPhoneAidl(context);
             Log.d("AutoAnswer", "Ok.");
-//            try {
-//                PowerManager powerMgr = (PowerManager) getSystemService(POWER_SERVICE);
-//                PowerManager.WakeLock wl = powerMgr.newWakeLock(PowerManager.PROXIMITY_SCREEN_OFF_WAKE_LOCK,"AutoAnswerIntentService");
-//                wl.acquire();
-//                Log.d("AutoAnswer", "Screen Ok.");
-//            }
-//            catch (Exception e) {
-//                e.printStackTrace();
-//                Log.d("AutoAnswer", "Error trying to turn off screen.");
-//            }
+            try {
+                PowerManager powerMgr = (PowerManager) getSystemService(POWER_SERVICE);
+                powerMgr.goToSleep(1);
+            }
+            catch (Exception e) {
+                e.printStackTrace();
+                Log.d("AutoAnswer", "Error trying to turn off screen.");
+            }
         }
         catch (Exception e) {
             e.printStackTrace();
